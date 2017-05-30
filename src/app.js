@@ -6,7 +6,8 @@ import {
 
 import {
   Button,
-  Card
+  Card,
+  CardSection
 } from './components/common/index';
 
 const App = () => {
