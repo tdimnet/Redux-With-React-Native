@@ -7,7 +7,8 @@ import {
 import {
   Button,
   Card,
-  CardSection
+  CardSection,
+  Header
 } from './components/common/index';
 
 const App = () => {
