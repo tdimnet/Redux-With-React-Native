@@ -4,9 +4,13 @@ import {
   Text
 } from 'react-native';
 
+import {
+  Button
+} from './components/common/index';
+
 const App = () => {
   return (
-    <View>
+    <View style={{ flex: 1,  alignItems: 'center', justifyContent: 'center' }}>
       <Text>
         Foo
       </Text>
