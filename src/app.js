@@ -5,7 +5,8 @@ import {
 } from 'react-native';
 
 import {
-  Button
+  Button,
+  Card
 } from './components/common/index';
 
 const App = () => {
