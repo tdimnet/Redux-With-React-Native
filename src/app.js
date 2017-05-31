@@ -1,23 +1,16 @@
 import React from 'react';
-import {
-  View,
-  Text
-} from 'react-native';
-
-import {
-  Button,
-  Card,
-  CardSection,
-  Header
-} from './components/common/index';
+import { View } from 'react-native';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import { Header } from './components/common/index';
 
 const App = () => {
   return (
-    <View style={{ flex: 1,  alignItems: 'center', justifyContent: 'center' }}>
-      <Text>
-        Foo
-      </Text>
-    </View>
+    <Provider>
+      <View style={{flex: 1}} >
+        <Header headerText="Tech Stack"/>
+      </View>
+    </Provider>
   )
 }
 
