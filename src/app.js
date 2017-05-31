@@ -7,7 +7,7 @@ import { Header } from './components/common/index';
 
 const App = () => {
   return (
-    <Provider>
+    <Provider store={createStore(reducers)} >
       <View style={{flex: 1}} >
         <Header headerText="Tech Stack"/>
       </View>
